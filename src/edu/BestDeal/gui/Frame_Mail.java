@@ -88,6 +88,12 @@ public class Frame_Mail extends javax.swing.JFrame {
             }
         });
 
+        jLabelpieceJointe.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jLabelpieceJointeActionPerformed(evt);
+            }
+        });
+
         jLabel6.setText("joindre des fichiers");
 
         btn_Attach.setText("Attach");
@@ -241,6 +247,10 @@ public class Frame_Mail extends javax.swing.JFrame {
        M.setVisible(true);
        dispose();
     }//GEN-LAST:event_btn_AnnulerActionPerformed
+
+    private void jLabelpieceJointeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jLabelpieceJointeActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jLabelpieceJointeActionPerformed
 
     public String cleanUrl(URL url) {
 
